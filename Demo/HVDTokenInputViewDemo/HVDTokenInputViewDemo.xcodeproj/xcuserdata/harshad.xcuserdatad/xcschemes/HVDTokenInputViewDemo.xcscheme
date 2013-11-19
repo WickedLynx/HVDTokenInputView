@@ -38,6 +38,16 @@
                ReferencedContainer = "container:HVDTokenInputViewDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FA201F4F183B6FCA000F6849"
+               BuildableName = "HVDTokenInputViewAcceptanceTests.octest"
+               BlueprintName = "HVDTokenInputViewAcceptanceTests"
+               ReferencedContainer = "container:HVDTokenInputViewDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -21,6 +21,12 @@
 		FA201E28183B5C89000F6849 /* HVDTokenInputViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA201E27183B5C89000F6849 /* HVDTokenInputViewDemoTests.m */; };
 		FA201E33183B5CA4000F6849 /* HVDTokenInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA201E32183B5CA4000F6849 /* HVDTokenInputView.m */; };
 		FA201E36183B5CBD000F6849 /* HVDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA201E35183B5CBD000F6849 /* HVDRootViewController.m */; };
+		FA201F52183B6FCA000F6849 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA201F51183B6FCA000F6849 /* SenTestingKit.framework */; };
+		FA201F53183B6FCA000F6849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA201E02183B5C89000F6849 /* Foundation.framework */; };
+		FA201F54183B6FCA000F6849 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA201E06183B5C89000F6849 /* UIKit.framework */; };
+		FA201F5A183B6FCA000F6849 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA201F58183B6FCA000F6849 /* InfoPlist.strings */; };
+		FA201F5C183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA201F5B183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests.m */; };
+		FA202082183B75CD000F6849 /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20207B183B75AF000F6849 /* libKIF.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +36,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = FA201DFE183B5C89000F6849;
 			remoteInfo = HVDTokenInputViewDemo;
+		};
+		FA201F5E183B6FCA000F6849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA201DF7183B5C89000F6849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA201DFE183B5C89000F6849;
+			remoteInfo = HVDTokenInputViewDemo;
+		};
+		FA20207A183B75AF000F6849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA202073183B75AF000F6849 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB72047C1680DDAD00278DA2;
+			remoteInfo = KIF;
+		};
+		FA20207C183B75AF000F6849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA202073183B75AF000F6849 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECC1177F8C83005A041A;
+			remoteInfo = "Test Host";
+		};
+		FA20207E183B75AF000F6849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA202073183B75AF000F6849 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECEB177F8DB3005A041A;
+			remoteInfo = "KIF Tests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -54,6 +88,13 @@
 		FA201E32183B5CA4000F6849 /* HVDTokenInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HVDTokenInputView.m; path = ../../../HVDTokenInputView/HVDTokenInputView.m; sourceTree = "<group>"; };
 		FA201E34183B5CBD000F6849 /* HVDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVDRootViewController.h; sourceTree = "<group>"; };
 		FA201E35183B5CBD000F6849 /* HVDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVDRootViewController.m; sourceTree = "<group>"; };
+		FA201F50183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HVDTokenInputViewAcceptanceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA201F51183B6FCA000F6849 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA201F57183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HVDTokenInputViewAcceptanceTests-Info.plist"; sourceTree = "<group>"; };
+		FA201F59183B6FCA000F6849 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA201F5B183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVDTokenInputViewAcceptanceTests.m; sourceTree = "<group>"; };
+		FA201F5D183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HVDTokenInputViewAcceptanceTests-Prefix.pch"; sourceTree = "<group>"; };
+		FA202073183B75AF000F6849 /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = KIF/KIF.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +118,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA201F4D183B6FCA000F6849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA202082183B75CD000F6849 /* libKIF.a in Frameworks */,
+				FA201F52183B6FCA000F6849 /* SenTestingKit.framework in Frameworks */,
+				FA201F54183B6FCA000F6849 /* UIKit.framework in Frameworks */,
+				FA201F53183B6FCA000F6849 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,8 +137,9 @@
 			children = (
 				FA201E08183B5C89000F6849 /* HVDTokenInputViewDemo */,
 				FA201E21183B5C89000F6849 /* HVDTokenInputViewDemoTests */,
-				FA201E01183B5C89000F6849 /* Frameworks */,
+				FA201F55183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests */,
 				FA201E00183B5C89000F6849 /* Products */,
+				FA201E01183B5C89000F6849 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +148,7 @@
 			children = (
 				FA201DFF183B5C89000F6849 /* HVDTokenInputViewDemo.app */,
 				FA201E1A183B5C89000F6849 /* HVDTokenInputViewDemoTests.xctest */,
+				FA201F50183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +160,7 @@
 				FA201E04183B5C89000F6849 /* CoreGraphics.framework */,
 				FA201E06183B5C89000F6849 /* UIKit.framework */,
 				FA201E1B183B5C89000F6849 /* XCTest.framework */,
+				FA201F51183B6FCA000F6849 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,6 +209,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FA201F55183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA202073183B75AF000F6849 /* KIF.xcodeproj */,
+				FA201F5B183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests.m */,
+				FA201F56183B6FCA000F6849 /* Supporting Files */,
+			);
+			path = HVDTokenInputViewAcceptanceTests;
+			sourceTree = "<group>";
+		};
+		FA201F56183B6FCA000F6849 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA201F57183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests-Info.plist */,
+				FA201F58183B6FCA000F6849 /* InfoPlist.strings */,
+				FA201F5D183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA202074183B75AF000F6849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA20207B183B75AF000F6849 /* libKIF.a */,
+				FA20207D183B75AF000F6849 /* Test Host.app */,
+				FA20207F183B75AF000F6849 /* KIF Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +277,24 @@
 			productReference = FA201E1A183B5C89000F6849 /* HVDTokenInputViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FA201F4F183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA201F60183B6FCA000F6849 /* Build configuration list for PBXNativeTarget "HVDTokenInputViewAcceptanceTests" */;
+			buildPhases = (
+				FA201F4C183B6FCA000F6849 /* Sources */,
+				FA201F4D183B6FCA000F6849 /* Frameworks */,
+				FA201F4E183B6FCA000F6849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA201F5F183B6FCA000F6849 /* PBXTargetDependency */,
+			);
+			name = HVDTokenInputViewAcceptanceTests;
+			productName = HVDTokenInputViewAcceptanceTests;
+			productReference = FA201F50183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,6 +306,9 @@
 				ORGANIZATIONNAME = LBS;
 				TargetAttributes = {
 					FA201E19183B5C89000F6849 = {
+						TestTargetID = FA201DFE183B5C89000F6849;
+					};
+					FA201F4F183B6FCA000F6849 = {
 						TestTargetID = FA201DFE183B5C89000F6849;
 					};
 				};
@@ -217,13 +323,44 @@
 			mainGroup = FA201DF6183B5C89000F6849;
 			productRefGroup = FA201E00183B5C89000F6849 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FA202074183B75AF000F6849 /* Products */;
+					ProjectRef = FA202073183B75AF000F6849 /* KIF.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FA201DFE183B5C89000F6849 /* HVDTokenInputViewDemo */,
 				FA201E19183B5C89000F6849 /* HVDTokenInputViewDemoTests */,
+				FA201F4F183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FA20207B183B75AF000F6849 /* libKIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKIF.a;
+			remoteRef = FA20207A183B75AF000F6849 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA20207D183B75AF000F6849 /* Test Host.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Test Host.app";
+			remoteRef = FA20207C183B75AF000F6849 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA20207F183B75AF000F6849 /* KIF Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KIF Tests.octest";
+			remoteRef = FA20207E183B75AF000F6849 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FA201DFD183B5C89000F6849 /* Resources */ = {
@@ -240,6 +377,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA201E26183B5C89000F6849 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA201F4E183B6FCA000F6849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA201F5A183B6FCA000F6849 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +410,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA201F4C183B6FCA000F6849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA201F5C183B6FCA000F6849 /* HVDTokenInputViewAcceptanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -272,6 +425,11 @@
 			isa = PBXTargetDependency;
 			target = FA201DFE183B5C89000F6849 /* HVDTokenInputViewDemo */;
 			targetProxy = FA201E1F183B5C89000F6849 /* PBXContainerItemProxy */;
+		};
+		FA201F5F183B6FCA000F6849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA201DFE183B5C89000F6849 /* HVDTokenInputViewDemo */;
+			targetProxy = FA201F5E183B6FCA000F6849 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -288,6 +446,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				FA201E25183B5C89000F6849 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA201F58183B6FCA000F6849 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA201F59183B6FCA000F6849 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -435,6 +601,50 @@
 			};
 			name = Release;
 		};
+		FA201F61183B6FCA000F6849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HVDTokenInputViewDemo.app/HVDTokenInputViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HVDTokenInputViewAcceptanceTests/HVDTokenInputViewAcceptanceTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HVDTokenInputViewAcceptanceTests/HVDTokenInputViewAcceptanceTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FA201F62183B6FCA000F6849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HVDTokenInputViewDemo.app/HVDTokenInputViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HVDTokenInputViewAcceptanceTests/HVDTokenInputViewAcceptanceTests-Prefix.pch";
+				INFOPLIST_FILE = "HVDTokenInputViewAcceptanceTests/HVDTokenInputViewAcceptanceTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -454,6 +664,7 @@
 				FA201E2D183B5C89000F6849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA201E2E183B5C89000F6849 /* Build configuration list for PBXNativeTarget "HVDTokenInputViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +673,16 @@
 				FA201E30183B5C89000F6849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA201F60183B6FCA000F6849 /* Build configuration list for PBXNativeTarget "HVDTokenInputViewAcceptanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA201F61183B6FCA000F6849 /* Debug */,
+				FA201F62183B6FCA000F6849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
