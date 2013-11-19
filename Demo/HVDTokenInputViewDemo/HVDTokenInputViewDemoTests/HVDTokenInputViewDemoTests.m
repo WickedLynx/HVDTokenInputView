@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "HVDTokenInputView.h"
 
 @interface HVDTokenInputViewDemoTests : XCTestCase
 
@@ -26,9 +27,22 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testInitialisationWithTokens
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSArray *tokens = @[@"Taco", @"cat", @"is", @"a", @"palindrome"];
+
+    HVDTokenInputView *anInputView = [[HVDTokenInputView alloc] initWithFrame:[UIScreen mainScreen].bounds tokens:tokens editable:YES];
+
+    XCTAssertEqual(tokens.count, anInputView.tokens.count, @"Did not add all tokens");
+
+    for (int tokenIndex = 0; tokenIndex != tokens.count; ++tokenIndex) {
+
+        NSString *token = [anInputView.tokens objectAtIndex:tokenIndex];
+
+        XCTAssert([token isEqualToString:tokens[tokenIndex]], @"Did not add token: %@", token);
+
+    }
+
 }
 
 @end
